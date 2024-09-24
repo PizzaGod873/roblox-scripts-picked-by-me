@@ -3,12 +3,27 @@
   <head>
     <meta charset="utf-8" />
 
-    <title>Home - PizzaGod Roblox scripts</title>
+    <title>Home - PizzaGod's Roblox scripts</title>
 
     <link rel="stylesheet" href="/style.css" />
-    
+
+    <script src="/script.js" defer></script>
   </head>
   <body>
-    
+    <h2 class="Wcolor">
+    Just to clairify, all these buttons lead to a raw file.
+    </h2>
+    <a href="/doors.lua" class="Button1">DOORS script</a>
+    <button onclick="Cdoors()">Copy loadstring</button>
+      <script>
+        function Cdoors() {
+
+          // Copy the text inside the text field
+          navigator.clipboard.writeText("Hello");
+
+          // Alert the copied text
+          alert("Copied the loadstring.");
+        }
+    </script>
   </body>
 </html>
